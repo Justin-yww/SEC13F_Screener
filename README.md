@@ -6,9 +6,16 @@ Enter any institution's CIK and the pipeline fetches their two most recent 13F-H
 
 ---
 
-**Data source:** SEC EDGAR (free, no API key required)  
-**CUSIP resolution:** OpenFIGI (free tier, optional API key for higher rate limits)  
-**Stack:**
+**Data source:** 
+
+![SEC EDGAR](https://img.shields.io/badge/SEC_EDGAR-003087?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyTDIgN2wxMCA1IDEwLTVMMTIgMnpNMiAxN2wxMCA1IDEwLTVNMiAxMmwxMCA1IDEwLTUiLz48L3N2Zz4=&logoColor=white)  
+> free, no API key required
+**CUSIP resolution:** 
+
+![OpenFIGI](https://img.shields.io/badge/OpenFIGI-FF6B35?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyek0xMiAyMGMtNC40MiAwLTgtMy41OC04LThzMy41OC04IDgtOCA4IDMuNTggOCA4LTMuNTggOC04IDh6bTEtMTNoLTJ2NmwyIDIgMS40MS0xLjQxTDEzIDEyLjE3VjdaIi8+PC9zdmc+&logoColor=white) 
+> free tier, optional API key for higher rate limits
+
+**Stack:**  
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
