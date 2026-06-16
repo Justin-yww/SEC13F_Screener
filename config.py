@@ -1,6 +1,5 @@
 """
 Configuration for the 13F Terminal app.
-
 """
 import os 
 from pathlib import Path
