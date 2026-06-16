@@ -16,14 +16,15 @@ SEC_USER_EMAIL: str = os.environ["SEC_USER_EMAIL"]
 SEC_USER_AGENT: str = f"{SEC_USER_NAME} {SEC_USER_EMAIL}"
 
 EDGAR_SUBMISSIONS_URL = "https://data.sec.gov/submissions"
-EDGAR_ARCHIVE_URL     = "https://www.sec.gov/Archives/edgar"
+EDGAR_ARCHIVE_URL     = "https://www.sec.gov/Archives/edgar/data"
 EDGAR_RATE_LIMIT_S    = 0.12   # 10 req/s max → sleep 120ms between calls
 
 # OpenFIGI API 
 # NOTE: OpenFIGI requires a valid API key so do update in the .env file
-OPENFIGI_API_KEY: str = os.environ["OPENFIGI_API_KEY"]
-OPENFIGI_BASE_URL: str = "https://api.openfigi.com/v1"
-OPENFIGI_RATE_LIMIT_S = 0.12   # 10 req/s max → sleep 120ms between calls
+OPENFIGI_API_KEY: str  = os.getenv("OPENFIGI_API_KEY", "")
+OPENFIGI_URL           = "https://api.openfigi.com/v3/mapping"
+OPENFIGI_BATCH_SIZE    = 100
+OPENFIGI_RATE_LIMIT_S  = 0.5
 
 # Cache configuration
 CACHE_DIR        = _ROOT / "data" / "cache"
