@@ -9,6 +9,7 @@ Enter any institution's CIK and the pipeline fetches their two most recent 13F-H
 **Data source:** SEC EDGAR (free, no API key required)  
 **CUSIP resolution:** OpenFIGI (free tier, optional API key for higher rate limits)  
 **Stack:**
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
